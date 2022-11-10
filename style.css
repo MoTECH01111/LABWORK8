@@ -1,0 +1,5 @@
+
+body{ /*selecting the body*/
+	background-color: lightgrey;/* property = background and vlaue = red */
+	color: white; /* property = font colour and vlaue = white */
+}

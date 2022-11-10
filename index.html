@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html lang="en">
+        <head>
+              <title> Javascript</title>
+            <link rel="stylesheet" href="style.css">
+            	<script type="text/javascript">
+
+
+              var name; //declare name variable
+              var lastName;//declare lastName variable
+              name = prompt("Enter name");
+              lastName = prompt("Enter lastName");
+              alert("Welcome " + name + " Enjoy our Guess Game Mr "+ lastName);
+
+
+            var secret = 75;
+
+            var guess = parseInt(prompt("Guess a number 1-100"));
+
+            if (secret == guess) {
+                 document.write("winner");
+            }else if (secret<guess) {
+                  document.write("Your too high guess lower");
+            }else if (secret>guess) {
+                  document.write("Your too low guess higher");
+            }else {
+                document.write("Only Number between 1-100");
+            }
+
+
+
+            var num = parseInt(prompt("Enter number of attempts"));
+
+            if (num=<10 && >=5) {
+                document.write("Congrats Good guessing");
+
+            }else if (num=<11 && >=30) {
+                 documnent.write("Good try ");
+
+            }else if (num=<31) {
+              document.write("Not so good try again");
+
+            }
+
+              </script>
+</head>
+
+        <body>
+              <p>Welcome to Guess Game</p>
+
+
+
+
+
+        </body>
+
+
+
+
+
+  </html>
